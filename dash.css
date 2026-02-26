@@ -1,0 +1,107 @@
+body {
+    font-family: Arial;
+    background: #575793;
+    margin: 0;
+    padding: 0px;
+}
+
+/* BOX */
+.box{
+  width: 300px;
+  margin: 100px auto;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px transparent;
+}
+input, textarea, select {
+    width: 80%;
+    padding: 13px;
+    margin: 12px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+/* DASHBOARD */
+#dashboard {
+    padding: 20px;
+    color : white;
+    text-shadow: 7px 10px 3px gray;
+    font-size: 16px;
+}
+
+.hidden{
+  display: none;
+}
+
+h1{
+  text-align: center;
+}
+
+/* INPUT */
+input,textarea,select{
+  width: 90%;
+  padding: 8px;
+  margin: 5px;
+}
+
+/* BUTTON */
+button {
+    padding: 12px 10px;
+    background: #001680bf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 115px;
+    margin: 14px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+button:hover {
+    background-color: #585e9f;
+    transition: all 0.8s ease;
+ 
+}
+
+/* SECTION */
+.section {
+    background: #585e9f;
+    margin: 20px;
+    border-radius: 27px;
+    box-shadow: 0 0 20px 15px #050506;
+    max-width: 17%;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+}
+ul#tasklist {
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    padding: 20px;
+}
+ul#tasklist li {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 17px;
+}
+
+
+/* TASK */
+li{
+  list-style: none;
+  padding: 5px;
+  background: #eee;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* NOTES */
+.note {
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    color: black;}

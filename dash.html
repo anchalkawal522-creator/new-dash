@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+</head>
+
+<body>
+    <!-- login form -->
+    <div id="loginbox" class="box">
+
+
+
+        <h1> login </h1>
+
+        <input type="text" id="name" placeholder="enter your name">
+        <input type="password" id="password" placeholder=" enter your password">
+
+
+        <button onclick="login()">login</button>
+
+        <p id="msg"></p>
+    </div>
+    <!-- dashboard open -->
+    <div id="dashboard" class="hidden">
+
+        <h1>Smart Productivity Dashboard</h1>
+        <!-- task manage -->
+
+<div class="section">
+    <h1>task manager</h1>
+    <input type="text" id="task" placeholder="enter your task">
+    <button onclick="addtask()">ADD</button>
+
+    <ul id="tasklist"></ul>
+</div>
+
+<!-- notes -->
+ <div class="section">
+    <h1>notes</h1>
+
+    <textarea id="notebook"></textarea>
+    <button onclick="savenote()">save</button>
+
+    <div id="notes"></div>
+ </div>
+ <!-- expence -->
+  <div class="section">
+    <h1>expences</h1>
+
+    <input type="number" id="amount">
+    <select id="type">
+        <option value="income">income</option>
+        <option value ="expense">expence</option>
+    </select>
+    <button onclick="add()">add</button>
+    <div id="balance">balance:0</div>
+  </div>
+
+
+  <!-- timer -->
+   <div class="section">
+    <h1>timer</h1>
+    <p id="timer">00:00</p>
+    <button onclick="starttimer()">start</button>
+    <button onclick="stoptimer()">stop</button>
+   </div>
+
+
+
+   <!-- quote -->
+ 
+  <div class="section">
+
+    <h2>Motivational Quote</h2>
+
+    <p id="quotebox"> Quote.....</p>
+
+    <button id="button">Get Quote</button>
+
+  </div>
+
+        <script src="dash.js"></script>
+</body>
+
+</html>
