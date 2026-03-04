@@ -60,6 +60,11 @@ function logout(){
 
 
 // task
+function toggleTask(){
+  document.getElementById("taskBox")
+    .classList.toggle("hidden");
+
+}
 
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
@@ -129,7 +134,10 @@ function dltTask(id){
 
 
 //notes
-
+function togglenote(){
+  document.getElementById("notebox")
+    .classList.toggle("hidden");
+}
 let notes = JSON.parse(localStorage.getItem("notes")) || [];
 
 function initNotes(){
@@ -179,6 +187,10 @@ function shownotes(){
 
 
 //expense
+function toggleexpence(){
+  document.getElementById("expencebox")
+    .classList.toggle("hidden");
+}
 
 let balance = Number(localStorage.getItem("balance")) || 20;
 
@@ -218,6 +230,10 @@ function add(){
 
 
 // timer
+function toggletime(){
+  document.getElementById("timebox")
+    .classList.toggle("hidden");
+}
 
 let seconds = Number(localStorage.getItem("seconds")) || 0;
 
@@ -269,7 +285,10 @@ function showTimer(){
 
 
 // quote
-
+function togglequote(){
+  document.getElementById("quotebox")
+    .classList.toggle("hidden");
+}
 let quotes = [
   "Believe in yourself",
   "Never give up",

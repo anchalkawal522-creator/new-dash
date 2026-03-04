@@ -29,6 +29,7 @@ input, textarea, select {
     color : white;
     text-shadow: 7px 10px 3px gray;
     font-size: 16px;
+    text-align: center;
 }
 
 .hidden{
@@ -53,7 +54,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    width: 115px;
+    width: 150px;
     margin: 14px;
     font-size: 20px;
     text-transform: capitalize;
